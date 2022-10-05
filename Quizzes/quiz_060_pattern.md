@@ -17,4 +17,4 @@ class Pattern:
         return y
 ```
 
-![]()
+![](quiz_60py.png)
