@@ -14,4 +14,4 @@ def neighbours(nodes, points):
     return output
 ```
 
-![]()
+![](quiz_58py.png)
