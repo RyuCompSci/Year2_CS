@@ -8,10 +8,10 @@ class GridGrid:
         for k in range(5):
             for i in range(5):
                 for j in range(5):
-                    y = y + str(x[j]+i*5+k*25) + " "
+                    y = y + str(x[j]+i*5+k*25) + " " # gives each value by multiplying indices of the loops
                 y = y+"\n"
             y = y+"\n\n"
         return y
 ```
 
-![]()
+![](quiz_59py.png)
