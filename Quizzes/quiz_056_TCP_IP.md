@@ -44,4 +44,4 @@ class ip_packet:
         return self.port_rx + self.port_tx + self.mac_rx + self.mac_tx + self.ip_rx + self.ip_tx
 ```
 
-![]()
+![](quiz_56py.png)
