@@ -15,5 +15,4 @@ class Converter:
         return binary
 ```.py
 
-![]()
-![]()
+![](quiz_55py.png)
