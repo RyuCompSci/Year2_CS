@@ -38,4 +38,4 @@ class open_doors:
         return output
 ```
 
-![]()
+![](quiz_063.png)
