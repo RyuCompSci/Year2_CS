@@ -17,4 +17,4 @@ class converter:
         return ans
 ```
 
-![]()
+![](quiz_57py.png)
