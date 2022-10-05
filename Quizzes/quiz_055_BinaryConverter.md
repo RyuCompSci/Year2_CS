@@ -1,6 +1,6 @@
 ### Binary Converter
 
-```
+'''
 class Converter:
     def __init__(self, number):
         self.number = number
@@ -13,6 +13,6 @@ class Converter:
             self.number = self.number//2
             binary = str(remainder) + binary #number converted into binary
         return binary
-```.py
+'''.py
 
 ![](quiz_55py.png)
