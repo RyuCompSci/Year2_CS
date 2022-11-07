@@ -24,4 +24,4 @@ class Boolean_go:
             print(0)
 ```
 
-![]()
+![](quiz_70py.png)
