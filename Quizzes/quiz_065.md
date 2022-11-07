@@ -7,4 +7,4 @@ class reverse_flow:
             print(" " * (i) + water)
 ```
 
-![]()
+![](quiz_65py.png)
