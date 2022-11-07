@@ -7,4 +7,4 @@ class con_dif_ad:
         return ans
 ```
 
-![]()
+![](quiz_67py.png)
