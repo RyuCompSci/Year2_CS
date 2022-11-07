@@ -11,4 +11,4 @@ class UpsideDown:
         print(ans1)
 ```
 
-![]()
+![](quiz69py.png)
