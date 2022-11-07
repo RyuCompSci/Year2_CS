@@ -13,4 +13,4 @@ class Mars_rocket:
             print("Welcome to Mars")
 ```
 
-![]()
+![](quiz_68py.png)
