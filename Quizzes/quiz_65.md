@@ -7,4 +7,4 @@ class Square:
             print("+"*n)
 ```
 
-![](quiz66.png)
+![](quiz66py.png)
