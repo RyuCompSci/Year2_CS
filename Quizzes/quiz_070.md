@@ -1,27 +1,32 @@
 ### Boolean
 
 ```.py
-class Boolean_go:
-    def Boo_go(self, a, b, c):
-        ab = 0
-        nb = 0
-        ncb = 0
-        if a == b == 1:
-            ab = 1
+def TruthTable():
+    BE = input().replace("(", "")
+    BE = BE.replace(")", "")
+    print(f"| A | B | C |{BE}|")
+    a, b, c = 0, 0, 0
+    for i in range(8):
+        if (i+1) >= 5:
+            a = 1
         else:
-            ab = 0
-        if b == 0:
-            nb = 1
+            a = 0
+        if i%4 == 0 or i%4 == 1:
+            b = 0
         else:
-            nb = 0
-        if c == b == 1:
-            ncb = 0
+            b = 1
+        if (i+1)%2 == 1:
+            c = 0
         else:
-            ncb = 1
-        if ab + nb + ncb == 0:
-            print(0)
+            c = 1
+        if (a and b) or (not b) or (not (b and c)):
+            output = 1
         else:
-            print(0)
+            output = 0
+        print(f"| {a} | {b} | {c} |         {output}         |")
+
+
+TruthTable()
 ```
 
 ![](quiz_70py.png)
