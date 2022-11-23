@@ -2,7 +2,7 @@
 
 ```.py
 class Mars_rocket:
-    def fuel(self, distance, time, fuel, fuel_consumption, velocity):
+    def fuel(self, distance, time, fuel, fuel_consumption, velocity): #prints the state of launch in each condition
         if distance > time * velocity and fuel * fuel_consumption < distance:
             print("Failure, Not enough time")
         elif distance > time * velocity:
