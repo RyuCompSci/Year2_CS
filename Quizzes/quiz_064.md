@@ -112,4 +112,4 @@ class queue:
         return output[:-1]
 ```
 
-![]()
+![](quiz_64py.png)
