@@ -8,7 +8,7 @@ import random
 
 def sort_q2s(scores):
     output = Stack()
-    while not scores.ismepty():
+    while not scores.ismepty(): # loops while scores has any value
         copy = queue()
         min = 10
         while not scores.ismepty():
