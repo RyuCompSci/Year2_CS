@@ -6,7 +6,7 @@ class Vowels:
         self.msg = msg
 
     def extract(self):
-        self.msg = self.msg.replace("a", "1")
+        self.msg = self.msg.replace("a", "1") # swapping vowels with corresponding number
         self.msg = self.msg.replace("e", "2")
         self.msg = self.msg.replace("i", "3")
         self.msg = self.msg.replace("o", "4")
