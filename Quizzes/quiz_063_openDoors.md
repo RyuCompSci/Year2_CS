@@ -13,7 +13,7 @@ class open_doors:
     def count_open(self,):
         for i in range(self.num_students):
             self.lst.append(0)
-        for j in range(len(self.lst)):
+        for j in range(len(self.lst)): #loops within the length of self.lst
             for k in range(len(self.lst)//(j+1)):
                 if self.lst[j*k] == 0:
                     self.lst[j*k] = 1
@@ -22,12 +22,12 @@ class open_doors:
         sum = 0
         for l in range(len(self.lst)):
             sum += self.lst[l]
-        return sum
+        return sum #sum of the components of the list
 
     def count_open_magic(self):
         return math.floor(math.sqrt(self.num_students))
 
-    def colored(r, text):
+    def colored(r, text): # coloring the text
         return "\033[1;{0}m {1}".format(r, text)
 
     def output(self):
