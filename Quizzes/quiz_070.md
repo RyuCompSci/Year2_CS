@@ -29,4 +29,4 @@ def TruthTable():
 TruthTable()
 ```
 
-![](quiz_70py.png)
+![](quiz_70.2py.png)
