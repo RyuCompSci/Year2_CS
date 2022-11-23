@@ -29,7 +29,7 @@ class adder:
 
     def sum(self):
         s = 0
-        while not self.stack_text.isempty():
+        while self.stack_text.isempty() == "False":
             s += ord(self.stack_text.pop())-96
         return s
 ```
