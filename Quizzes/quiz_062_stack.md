@@ -33,3 +33,5 @@ class adder:
             s += ord(self.stack_text.pop())-96
         return s
 ```
+
+![]()
