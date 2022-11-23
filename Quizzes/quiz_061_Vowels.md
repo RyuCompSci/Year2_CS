@@ -1,3 +1,17 @@
 ### Vowels
 
-We do not have access to the slide for this quiz
+```.py
+class Vowels:
+    def __init__(self, msg):
+        self.msg = msg
+
+    def extract(self):
+        self.msg = self.msg.replace("a", "1")
+        self.msg = self.msg.replace("e", "2")
+        self.msg = self.msg.replace("i", "3")
+        self.msg = self.msg.replace("o", "4")
+        self.msg = self.msg.replace("u", "5")
+        return self.msg
+```
+
+![]()
