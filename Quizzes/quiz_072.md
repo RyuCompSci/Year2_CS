@@ -13,4 +13,4 @@ print(c)
 print(s)
 ```
 
-![]()
+![](quiz_072.png)
