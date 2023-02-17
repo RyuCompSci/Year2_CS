@@ -14,4 +14,4 @@ if int(input())*120-int(input())-int(input())<0:print("false")
 else:print("true")
 ```
 
-![]()
+![](image_quiz_071.png)
